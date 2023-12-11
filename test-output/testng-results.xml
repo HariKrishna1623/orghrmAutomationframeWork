@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-11T08:56:32 IST" name="Suite" finished-at="2023-12-11T08:56:56 IST" duration-ms="24640">
+    <groups>
+    </groups>
+    <test started-at="2023-12-11T08:56:32 IST" name="Test" finished-at="2023-12-11T08:56:56 IST" duration-ms="24640">
+      <class name="testcases.Testcase">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testcases.Testcase@1e81f160]" started-at="2023-12-11T08:56:32 IST" name="LaunchBrowser" finished-at="2023-12-11T08:56:44 IST" duration-ms="12530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="addNewJobRole(java.lang.String,java.lang.String)[pri:0, instance:testcases.Testcase@1e81f160]" started-at="2023-12-11T08:56:45 IST" name="addNewJobRole" data-provider="testdata" finished-at="2023-12-11T08:56:56 IST" duration-ms="11293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewJobRole -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.Testcase@1e81f160]" started-at="2023-12-11T08:56:56 IST" name="closeBrowser" finished-at="2023-12-11T08:56:56 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.Testcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
